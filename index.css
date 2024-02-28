@@ -36,5 +36,23 @@
     align-items: center;
 }
 
+@media screen and (max-width: 480px) {
+    .leftDiv {
+        min-width: 100%;
+    }
+    .rightDiv{
+        min-width: 100%;
+    }
+    .infoDiv {
+        flex-direction: column;
+    }
+    .nameHeader{
+        text-align: center;
+    }
+    .imageClass{
+        margin: 0 12px;
+    }
+}
+
 
 
